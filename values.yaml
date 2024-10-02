@@ -1,0 +1,8 @@
+dags:
+  persistence:
+    enabled: false
+  gitSync:
+    enabled: true    
+    repo: "https://github.com/jiramot/airflow-tutorial.git"
+    subPath: "/dags"
+    branch: "main"
